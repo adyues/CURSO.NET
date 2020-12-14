@@ -1,0 +1,18 @@
+.fondo{
+    width: 50%;
+    height: auto;
+    background-color: #f76532;
+    padding: 2%;
+}
+.borde{
+    border: 5px dashed black;
+    padding: 10%;
+    background-color: grey;
+}
+.texto{
+    font-size: 10px;
+    background-color: orange;
+}
+span{
+    background-color: red;
+}

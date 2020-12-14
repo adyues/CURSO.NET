@@ -1,0 +1,50 @@
+
+body{
+    width: 80%;
+    margin:0 auto;
+}
+.tamaño{
+    width: 20%;
+    height: auto;
+    background-color: lightgrey;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+    text-align: center;
+}
+#a{
+    box-shadow: -6px -6px 0px 0px #888888 ;
+}
+#b{
+    box-shadow: -6px -6px 6px 0px #888888 ;
+}
+#c{
+    box-shadow: 6px 6px 0px 0px #888888 inset ;
+}
+#d{
+    box-shadow: -6px -6px 10px 6px #888888  ;
+}
+#e{
+    box-shadow: inset .5px .5px 0px 5px #888888;
+}
+#f{
+    box-shadow: .5px .5px 8px 5px #888888;
+}
+#g{
+    box-shadow:inset -6px -6px 0px 0px #888888 ;
+}
+#h{
+    box-shadow:inset -6px -6px 6px 0px #888888 ;
+}
+#i{
+    box-shadow:inset -10px -10px 0px 0px #888888 ;
+}
+#j{
+    box-shadow:inset -10px -10px 10px 0px #888888 ;
+}
+#k{
+    box-shadow: inset .5px .5px 0px 3px #888888;
+}
+#l{
+    box-shadow: inset .5px .5px 8px 5px #888888;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+  <head>
+    <title>index</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styloBases.css">
+  </head>
+
+  <body>
+      <header>
+        <h1>Tutorial De Mysql</h1>
+        <p><a href="#introduccion">Introduccion</a></p>
+        <p><a href="#show_databases">Show Databases</a></p>
+        <p><a href="#creacion_tabla">Creacion de una tabla y mostrar sus campos</a></p>
+        <p><a href="#" id="inicio" name="inicio">Carga de registros a una tabla y su recuperacion</a></p>
+    </header>
+    <article>
+        <h2 name="introducion" id="introducion"  class="titulos">Introduccion</h2>
+            <p>
+                <a href="sql.com" class="sql">SQL</a>, Structure Query Language (Language de Consulta Estructurado)
+                es un lenguaje de programacin para trabajar con base de datos 
+                relacionales como <a href="sql.mycom" class="sql">MySQL</a>, <a href="sql.mycom" class="sql">Oracle</a>,etc.
+            </p> 
+            <p>
+                <a href="sql.mycom" class="sql">MySQL</a> es uninterpretador de <a href="sql.com" class="sql">SQL</a>, es un servidor de base de datos.
+            </p>
+            <p>
+                <a href="sql.mycom" class="sql">MySQL</a> permite crear base de datos y tablas, insertar datos modificados
+                eliminarlos,ordenarlos, hacer consultas y realizar muchas operaciones ,
+                etc, resumiendo administrar base de datos.
+            </p>
+            <p>
+                Ingresando instrucciones en una linea de comandos o embebidas en el lenguaje
+                como <A HREF="php.com" CLASS="sql">PHP</A> nos comunicamos en el servidor.Cada sentencia debe acabar con un punto
+                y coma (;)
+            </p>
+            <p>
+                La sensibilidad a mayusculas, es decir, si hace diferencia entre ellas, depende
+                del sistema operativo,<a href="windows.com" class="sql">windows</a> no es sensible, pero <a href="Linux.com" class="sql">Linux</a> si. Por ejemplo
+                <a href="windows.com" class="sql">windows</a> interpreta igualmente las siguientes sentencias <br>
+                create database administracion;
+                Create Database administracion;
+            </p>
+            <p>
+                Pero <a href="Linux.com" class="sql">Linux</a> interpretara como un error de segunda.
+            </p>
+            <p>
+                Se recomienda usar siempre minusculas, Es mas el sitio mysqlya.com esta 
+                instalado sobre servidor <a href="Linux.com" class="sql">Linux</a> por lo que todos los ejercicios deberan
+                interpretarse mayusculas y minusculas
+            </p>
+            <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+    <article>
+        <h2 id="show_databases" name="show_databases" class="titulos">Show database</h2>
+            <p>
+                Una base de datos es un conjunto de tablas.</p>
+            Una base de datos tiene un nombre con el cual accederemos a ella.</p>
+            Vamos a trabajar en una base de datos ya creada en el sitio, llamada
+            "administracion".
+            </p>
+            <p>
+                Para que el servidor nos muestre las bases de datos existentes, se 
+            lo solicitamos enviando la instrucción:
+            show databases;
+            </p>
+            <p>
+                Nos mostrará los nombres de las bases de datos, debe aparecer en este
+            sitio "administracion".
+            </p>
+            <p>
+                Creación de una tabla y mostrar sus campos
+            Una base de datos almacena sus datos en tablas.
+            </p>
+            <p><a href="#inicio">Volver al inicio</a></p>
+        <h2 id="creacion_tabla" name="creacion_tabla" class="titulos">Creacion de una tabla y mostrar sus campos</h2>
+            <p>
+                Una tabla es una estructura de datos que organiza los datos en columnas
+            y filas; cada columna es un campo (o atributo) y cada fila, un registro.
+            La intersección de una columna con una fila, contiene un dato específico,
+            un solo valor.
+            </p>
+            <p>
+                Cada registro contiene un dato por cada columna de la tabla.
+            Cada campo (columna) debe tener un nombre. El nombre del campo hace 
+            referencia a la información que almacenará.
+            </p>
+            <p>
+                Cada campo (columna) también debe definir el tipo de dato que almacenará.
+            Carga de registros a una tabla y su recuperación
+            Usamos "insert into". Especificamos los nombres de los campos entre
+            paréntesis y separados por comas y luego los valores para cada campo,
+            también entre paréntesis y separados por comas.
+            </p>
+            <p>
+                Es importante ingresar los valores en el mismo orden en que se nombran
+            los campos, si ingresamos los datos en otro orden, no aparece un 
+            mensaje de error y los datos se guardan de modo incorrecto.
+            </p>
+            <p> 
+                Note que los datos ingresados, como corresponden a campos de cadenas
+            de caracteres se colocan entre comillas simples. Las comillas simples 
+            son OBLIGATORIAS.
+            </p>
+            <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+  </body>
+</html>

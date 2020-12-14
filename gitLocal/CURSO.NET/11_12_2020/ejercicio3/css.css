@@ -1,0 +1,32 @@
+#a{
+    text-align: center;
+    border: 5px dashed #243361;
+    background-color: #cbe4ee;
+}
+#b{
+    text-align: center;
+    border: 5px double #7a46cd;
+    background-color: #c477da;
+}
+#c{
+    text-align: center;
+    border: 5px solid #702d66;
+    background-color: #fb9cfb;
+}
+#d{
+    text-align: center;
+    border: 5px dotted #702d66;
+    background-color: #702d66;
+}
+#e{
+    text-align: center;
+    border: 5px dashed #7a46cd;
+    background-color: #cbe4ee;
+}
+#f{
+    text-align: center;
+    border: 5px solid #702d66;
+    background-color: #fb9cfb;
+}
+
+
